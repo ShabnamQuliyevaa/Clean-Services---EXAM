@@ -1,0 +1,610 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --jose: "Josefin Sans", sans-serif;
+}
+
+header {
+    background-color: #ecf6fe;
+    padding-top: 10px;
+}
+
+header a {
+    margin-left: 10px;
+}
+
+header p {
+    font: 300 15px var(--jose);
+    color: #008aff;
+}
+
+.clean {
+    background-image: url("img/bg.png");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    padding-bottom: 100px;
+}
+
+.clean-body {
+    padding-top: 60px;
+}
+
+.clean-body li {
+    display: inline;
+}
+
+.clean-body li a {
+    text-decoration: none;
+    font: 400 16px var(--jose);
+    color: #008aff;
+    padding: 10px 20px;
+    border-radius: 22px;
+}
+
+.clean-body li a:hover {
+    background-color: #008aff;
+    color: #fff;
+}
+
+.clean-body button {
+    width: 179px;
+    height: 43px;
+    border-radius: 22px;
+    background-color: #ffe824;
+    border: none;
+    font: 400 16px var(--jose);
+    color: #474747;
+}
+
+.word h2 {
+    font: 300 33px var(--jose);
+    color: #008aff;
+    padding-top: 70px;
+}
+
+.word h1 {
+    font: 400 68px var(--jose);
+    color: #13287e;
+    margin-top: 35px;
+    margin-bottom: 60px;
+}
+
+.word p {
+    font: 300 20px var(--jose);
+    line-height: 35px;
+    color: #474747;
+}
+
+.word button {
+    width: 219px;
+    height: 67px;
+    border-radius: 33px;
+    background-color: #ffe824;
+    font: 400 14px var(--jose);
+    color: #474747;
+    border: none;
+    margin-top: 50px;
+}
+
+.about {
+    padding-top: 50px;
+}
+
+.about h1 {
+    font: 400 33px var(--jose);
+    color: #008aff;
+}
+
+#img1 {
+    border-top-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    margin-bottom: 60px;
+}
+
+#img2 {
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    margin-bottom: 60px;
+}
+
+.about p {
+    font: 300 20px var(--jose);
+    line-height: 35px;
+    color: #474747;
+    margin-bottom: 60px;
+}
+
+.about ul li a {
+    text-decoration: none;
+    font: 300 20px var(--jose);
+    height: 156px;
+    line-height: 35px;
+    color: #008aff;
+}
+
+.about ul {
+    color: #008aff;
+}
+
+.about button {
+    width: 219px;
+    height: 67px;
+    border-radius: 33px;
+    background-color: #ffe824;
+    border: none;
+    font: 400 14px var(--jose);
+    color: #474747;
+    margin-top: 50px;
+}
+
+.like {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.about hr {
+    margin-top: 150px;
+    position: relative;
+}
+
+.like img {
+    position: absolute;
+}
+
+.choose {
+    padding-bottom: 150px;
+    padding-top: 200px;
+}
+
+.choose h1 {
+    font: 400 33px var(--jose);
+    color: #13287e;
+    margin-bottom: 100px;
+}
+
+.choose h2 {
+    font: 400 28px var(--jose);
+    color: #13287e;
+    margin-top: 50px;
+}
+
+.choose hr {
+    width: 121px;
+    background-color: #ffe824;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.choose p {
+    font: 300 19px var(--jose);
+    line-height: 33px;
+    color: #474747;
+}
+
+.customer {
+    background-image: url("img/Group\ 3.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 80px;
+    padding-bottom: 70px;
+}
+
+.customer h1 {
+    font: 400 33px var(--jose);
+    color: #13287e;
+    margin-bottom: 40px;
+}
+
+.customer p {
+    font: 300 20px var(--jose);
+    line-height: 35px;
+    color: #474747;
+}
+
+.customer img {
+    border-radius: 50%;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+
+.customer h2 {
+    font: 400 23px var(--jose);
+    line-height: 23px;
+    color: #f7b74d;
+}
+
+.plan {
+    padding-top: 100px;
+    padding-bottom: 200px;
+}
+
+.plan h1 {
+    font: 400 33px var(--jose);
+    color: #13287e;
+    margin-bottom: 50px;
+}
+
+.plan p {
+    font: 300 20px var(--jose);
+    line-height: 35px;
+    color: #474747;
+}
+
+.plan .card {
+    width: 335px;
+    box-shadow: 1px 10px 10px #888888;
+    margin: auto;
+}
+
+.plan h2 {
+    font: 400 26px var(--jose);
+    color: #474747;
+    padding: 20px;
+}
+
+.plan button {
+    width: 219px;
+    height: 67px;
+    border-radius: 34px;
+    background-color: #ffe824;
+    font: 400 14px var(--jose);
+    color: #474747;
+    border: none;
+}
+
+.client {
+    background-image: url("img/client.png");
+    background-size: 100%, 100%;
+    background-repeat: no-repeat;
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.client h1 {
+    font: 600 68px var(--jose);
+    color: #13287e;
+    margin-bottom: 60px;
+}
+
+.client p {
+    font: 300 20px var(--jose);
+    line-height: 35px;
+    color: #474747;
+    margin-bottom: 50px;
+}
+
+.client button {
+    width: 219px;
+    height: 67px;
+    border-radius: 33px;
+    background-color: #ffe824;
+    border: none;
+    font: 400 14px var(--jose);
+    color: #474747;
+}
+
+.news h1 {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    font: 400 33px var(--jose);
+    color: #13287e;
+}
+
+.news p {
+    font: 300 20px var(--jose);
+    line-height: 35px;
+    color: #474747;
+}
+
+.news h2 {
+    font: 300 26px var(--jose);
+    color: #13287e;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.news a {
+    font: 300 15px var(--jose);
+    line-height: 35px;
+    color: #008aff;
+}
+
+.menu {
+    padding-bottom: 30px;
+    padding-top: 150px;
+}
+
+.menu ul {
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    text-decoration: none;
+    font: 400 16px var(--jose);
+    color: #008aff;
+    padding: 10px 20px;
+    border-radius: 22px;
+}
+
+.menu li a:hover {
+    background-color: #008aff;
+    color: #fff;
+}
+
+.contact {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.contact button {
+    width: 219px;
+    height: 67px;
+    border-radius: 34px;
+    background-color: #ffe824;
+    font: 400 14px var(--jose);
+    color: #474747;
+    border: none;
+    margin-top: 40px;
+}
+
+.contact p {
+    font: 300 20px var(--jose);
+    line-height: 35px;
+    color: #474747;
+}
+
+.contact label {
+    font: 400 16px var(--jose);
+    line-height: 30px;
+    color: #474747;
+}
+
+.contact input {
+    width: 300px;
+    padding: 10px 0 10px 30px;
+    border-radius: 3px;
+    border: 1px solid #373737;
+    outline: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact input::placeholder {
+    font: 300 16px var(--jose);
+    line-height: 90px;
+    color: #474747;
+}
+
+.contact a i {
+    color: #474747;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.footer-body {
+    padding-top: 45px;
+    padding-bottom: 30px;
+}
+
+.footer-body p {
+    font: 300 12px var(--jose);
+    color: #474747;
+}
+
+footer p {
+    font: 300 16px var(--jose);
+    line-height: 30px;
+    color: #474747;
+    text-align: center;
+}
+
+@media only screen and (max-width: 768px) {
+    .clean-body ul {
+        display: none;
+    }
+    .clean-body button {
+        width: 130px;
+        height: 30px;
+        font-size: 12px;
+    }
+    .word h2 {
+        font-size: 20px;
+        padding-top: 70px;
+    }
+    .word h1 {
+        font-size: 35px;
+        margin-top: 24px;
+        margin-bottom: 30px;
+    }
+    .word p {
+        font-size: 14px;
+    }
+    .word button {
+        width: 153px;
+        height: 46px;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    .about {
+        padding-top: 10px;
+    }
+    .about h1 {
+        font-size: 23px;
+        margin-top: 50px;
+    }
+    .about p {
+        font-size: 14px;
+        margin-bottom: 30px;
+    }
+    .about ul li a {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about button {
+        width: 153px;
+        height: 46px;
+        font-size: 10px;
+        color: #474747;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    #img1 {
+        margin-bottom: 30px;
+    }
+    #img2 {
+        margin-bottom: 30px;
+    }
+    .choose {
+        padding-bottom: 100px;
+        padding-top: 140px;
+    }
+    .choose h1 {
+        font-size: 23px;
+        margin-bottom: 70px;
+    }
+    .choose h2 {
+        font-size: 19px;
+        margin-top: 30px;
+    }
+    .choose hr {
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+    .choose p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .customer {
+        padding-top: 56px;
+        padding-bottom: 49px;
+    }
+    .customer h1 {
+        font-size: 23px;
+        margin-bottom: 28px;
+    }
+    .customer p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .customer h2 {
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .plan {
+        padding-top: 70px;
+        padding-bottom: 30px;
+    }
+    .plan h1 {
+        font-size: 23px;
+        margin-bottom: 30px;
+    }
+    .plan p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .plan .card {
+        width: 230px;
+        margin-bottom: 50px;
+    }
+    .plan h2 {
+        font-size: 18px;
+        padding: 14px;
+    }
+    .plan button {
+        width: 150px;
+        height: 45px;
+        font-size: 10px;
+    }
+    .client {
+        background-size: cover;
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    .client h1 {
+        font-size: 40px;
+        margin-bottom: 40px;
+    }
+    .client p {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+    .client button {
+        width: 150px;
+        height: 45px;
+        font-size: 10px;
+    }
+    .news h1 {
+        margin-top: 70px;
+        margin-bottom: 30px;
+        font-size: 23px;
+    }
+    .news p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .news h2 {
+        font-size: 18px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .news a {
+        font-size: 10px;
+    }
+    .news img {
+        margin-top: 30px;
+    }
+    .menu ul {
+        display: none;
+    }
+    .contact {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .contact button {
+        width: 150px;
+        height: 45px;
+        font-size: 10px;
+        margin-top: 25px;
+    }
+    .contact p {
+        font-size: 14px;
+    }
+    .contact label {
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .contact input {
+        width: 230px;
+        margin-top: 14px;
+        margin-bottom: 14px;
+    }
+    .contact a i {
+        font-size: 14px;
+        margin-right: 7px;
+    }
+    .contact input::placeholder {
+        font-size: 11px;
+    }
+    .footer-body {
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    .footer-body p {
+        font-size: 9px;
+    }
+    footer p {
+        font-size: 11px;
+        line-height: 20px;
+    }
+}
